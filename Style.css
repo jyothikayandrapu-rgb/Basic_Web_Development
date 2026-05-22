@@ -1,0 +1,128 @@
+/* General Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Sections */
+
+section {
+    padding: 30px;
+}
+
+/* About Section */
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about li {
+    background-color: white;
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Image */
+
+img {
+    width: 450px;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Table */
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+}
+
+/* Links */
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color:#28a745;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #218838;
+}
+
+/* Button */
+
+.button-section {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
